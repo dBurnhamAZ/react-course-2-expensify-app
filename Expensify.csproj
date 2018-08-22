@@ -59,6 +59,7 @@
     <Content Include="src\sandbox\redux-expensify.js" />
     <Content Include="src\sandbox\redux101.js" />
     <Content Include="src\selectors\expenses.js" />
+    <Content Include="server\server.js" />
     <Content Include="src\store\configureStore.js" />
     <Content Include="src\styles\.csscomb.json" />
     <Content Include="src\styles\base\_base.scss" />
