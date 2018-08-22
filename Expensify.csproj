@@ -64,6 +64,7 @@
     <Content Include="src\styles\base\_base.scss" />
     <Content Include="src\styles\base\settings.scss" />
     <Content Include="jest.config.json" />
+    <Content Include="src\ReadMe.md" />
     <None Include="src\styles\styles.scss" />
     <Content Include=".editorconfig" />
     <Content Include=".jshintrc" />
@@ -92,7 +93,6 @@
     <Content Include="webpack.config.js" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="public\scripts\" />
     <Folder Include="src\styles\components\" />
   </ItemGroup>
   <ItemGroup>

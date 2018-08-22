@@ -20,3 +20,4 @@ test('should handle onSubmit', () => {
   expect(history.push).toHaveBeenLastCalledWith('/');
   expect(addExpense).toHaveBeenLastCalledWith(expenses[1]);
 });
+
