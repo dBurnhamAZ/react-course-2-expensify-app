@@ -2,9 +2,14 @@
   "name": "expensify",
   "private": true,
   "version": "1.0.0",
-  "description": "Facebook React Starter Kit",
+  "description": "My first REACT App-Expensify",
+  "engines": {
+    "node": "8.11.3",
+    "npm": "6.2.0",
+    "yarn": "1.7.0"
+  },
   "repository": "https://github.com/kriasoft/react-starter-kit",
-  "license": "MIT",
+  "license": "XXX",
   "dependencies": {
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
@@ -82,7 +87,7 @@
     "url-loader": "^0.5.5"
   },
   "scripts": {
-    "prestart": "npm install",    
+    "prestart": "npm install",
     "pretest": "npm install",
     "preupdate-webdriver": "npm install",
     "update-webdriver": "webdriver-manager update",

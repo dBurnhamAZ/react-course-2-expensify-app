@@ -34,7 +34,7 @@
     <Content Include="build\**\*.*" />
     <Content Include="docs\**\*.*" />
     <Content Include="public\index.html" />
-    <Content Include="src\.gitignore" />
+    <Content Include=".gitignore" />
     <Content Include="src\actions\expenses.js" />
     <Content Include="src\actions\filters.js" />
     <Content Include="src\app.js" />
