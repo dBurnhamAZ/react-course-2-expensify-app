@@ -48,9 +48,9 @@
     <Content Include="src\components\Header.js" />
     <Content Include="src\components\HelpPage.js" />
     <Content Include="src\components\NotFoundPage.js" />
-    <Content Include="src\images\logo-small.ico" />
-    <Content Include="src\images\logo-small.png" />
-    <Content Include="src\images\logo-small%402x.png" />
+    <Content Include="public\images\logo-small.ico" />
+    <Content Include="public\images\logo-small.png" />
+    <Content Include="public\images\logo-small%402x.png" />
     <Content Include="src\reducers\expenses.js" />
     <Content Include="src\reducers\filters.js" />
     <Content Include="src\routers\AppRouter.js" />
