@@ -45,6 +45,7 @@
     <Content Include="src\components\ExpenseList.js" />
     <Content Include="src\components\ExpenseListFilters.js" />
     <Content Include="src\components\ExpenseListItem.js" />
+    <Content Include="src\components\ExpensesSummary.js" />
     <Content Include="src\components\Header.js" />
     <Content Include="src\components\HelpPage.js" />
     <Content Include="src\components\NotFoundPage.js" />
@@ -58,6 +59,7 @@
     <Content Include="src\sandbox\hoc.js" />
     <Content Include="src\sandbox\redux-expensify.js" />
     <Content Include="src\sandbox\redux101.js" />
+    <Content Include="src\selectors\expenses-total.js" />
     <Content Include="src\selectors\expenses.js" />
     <Content Include="server\server.js" />
     <Content Include="src\store\configureStore.js" />
@@ -78,10 +80,12 @@
     <Content Include="src\tests\components\AddExpensePage.test.js" />
     <Content Include="src\tests\components\Dashboard.test.js" />
     <Content Include="src\tests\components\EditExpensePage.test.js" />
+    <Content Include="src\tests\components\expenses-total.test.js" />
     <Content Include="src\tests\components\ExpenseForm.test.js" />
     <Content Include="src\tests\components\ExpenseList.test.js" />
     <Content Include="src\tests\components\ExpenseListFilters.test.js" />
     <Content Include="src\tests\components\ExpenseListItem.test.js" />
+    <Content Include="src\tests\components\ExpensesSummary.test.js" />
     <Content Include="src\tests\components\Header.test.js" />
     <Content Include="src\tests\components\NotFoundPage.test.js" />
     <Content Include="src\tests\fixtures\expenses.js" />
