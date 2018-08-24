@@ -52,11 +52,14 @@
     <Content Include="public\images\logo-small.ico" />
     <Content Include="public\images\logo-small.png" />
     <Content Include="public\images\logo-small%402x.png" />
+    <Content Include="src\firebase\firebase.js" />
     <Content Include="src\reducers\expenses.js" />
     <Content Include="src\reducers\filters.js" />
     <Content Include="src\routers\AppRouter.js" />
     <Content Include="src\sandbox\destructuring.js" />
+    <Content Include="src\sandbox\firebase_basics.js" />
     <Content Include="src\sandbox\hoc.js" />
+    <Content Include="src\sandbox\promises.js" />
     <Content Include="src\sandbox\redux-expensify.js" />
     <Content Include="src\sandbox\redux101.js" />
     <Content Include="src\selectors\expenses-total.js" />
@@ -68,6 +71,8 @@
     <Content Include="src\styles\base\settings.scss" />
     <Content Include="jest.config.json" />
     <Content Include="src\ReadMe.md" />
+    <Content Include=".env.development" />
+    <Content Include=".env.test" />
     <None Include="src\styles\styles.scss" />
     <Content Include=".editorconfig" />
     <Content Include=".jshintrc" />

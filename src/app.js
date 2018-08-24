@@ -9,6 +9,8 @@ import { addExpense } from './actions/expenses'; //this is a named file (no defa
 import { setTextFilter } from './actions/filters'; //this is a named file (no default)
 import getVisibleExpense from './selectors/expenses';  //this is a DEFAULT file 
 import 'react-dates/lib/css/_datepicker.css';
+import './firebase/firebase';
+//import './sandbox/promises';
 
 const store = configureStore();
 
