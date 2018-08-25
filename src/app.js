@@ -5,7 +5,7 @@ import AppRouter from './routers/AppRouter';
 import configureStore from './store/configureStore';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
-import { addExpense } from './actions/expenses'; //this is a named file (no default)
+import { startSetExpenses } from './actions/expenses'; //this is a named file (no default)
 import { setTextFilter } from './actions/filters'; //this is a named file (no default)
 import getVisibleExpense from './selectors/expenses';  //this is a DEFAULT file 
 import 'react-dates/lib/css/_datepicker.css';
@@ -29,4 +29,8 @@ const jsx = (
   </Provider>
 );
 
-ReactDOM.render(jsx, document.getElementById('app'));
+ReactDOM.render(<p>loading...</p>, document.getElementById('app'));
+
+store.dispatch(startSetExpenses()).then(() => {
+  ReactDOM.render(jsx, document.getElementById('app'));
+});
