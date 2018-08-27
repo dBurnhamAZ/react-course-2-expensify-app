@@ -35,6 +35,7 @@
     <Content Include="docs\**\*.*" />
     <Content Include="public\index.html" />
     <Content Include=".gitignore" />
+    <Content Include="src\actions\auth.js" />
     <Content Include="src\actions\expenses.js" />
     <Content Include="src\actions\filters.js" />
     <Content Include="src\app.js" />
@@ -47,15 +48,18 @@
     <Content Include="src\components\ExpenseListItem.js" />
     <Content Include="src\components\ExpensesSummary.js" />
     <Content Include="src\components\Header.js" />
-    <Content Include="src\components\HelpPage.js" />
+    <Content Include="src\components\LoginPage.js" />
     <Content Include="src\components\NotFoundPage.js" />
     <Content Include="public\images\logo-small.ico" />
     <Content Include="public\images\logo-small.png" />
     <Content Include="public\images\logo-small%402x.png" />
     <Content Include="src\firebase\firebase.js" />
+    <Content Include="src\reducers\auth.js" />
     <Content Include="src\reducers\expenses.js" />
     <Content Include="src\reducers\filters.js" />
     <Content Include="src\routers\AppRouter.js" />
+    <Content Include="src\routers\PrivateRoute.js" />
+    <Content Include="src\routers\PublicRoute.js" />
     <Content Include="src\sandbox\destructuring.js" />
     <Content Include="src\sandbox\firebase_basics.js" />
     <Content Include="src\sandbox\hoc.js" />
@@ -79,6 +83,7 @@
     <Content Include="gulpfile.js" />
     <Content Include="package.json" />
     <Content Include="README.txt" />
+    <Content Include="src\tests\actions\auth.test.js" />
     <Content Include="src\tests\actions\expenses.test.js" />
     <Content Include="src\tests\actions\filters.test.js" />
     <Content Include="src\tests\add.test.js" />
@@ -92,9 +97,11 @@
     <Content Include="src\tests\components\ExpenseListItem.test.js" />
     <Content Include="src\tests\components\ExpensesSummary.test.js" />
     <Content Include="src\tests\components\Header.test.js" />
+    <Content Include="src\tests\components\LoginPage.test.js" />
     <Content Include="src\tests\components\NotFoundPage.test.js" />
     <Content Include="src\tests\fixtures\expenses.js" />
     <Content Include="src\tests\fixtures\filters.js" />
+    <Content Include="src\tests\reducers\auth.test.js" />
     <Content Include="src\tests\reducers\expenses.test.js" />
     <Content Include="src\tests\reducers\filters.test.js" />
     <Content Include="src\tests\selectors\expenses.test.js" />
