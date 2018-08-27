@@ -33,6 +33,9 @@
   <ItemGroup>
     <Content Include="build\**\*.*" />
     <Content Include="docs\**\*.*" />
+    <Content Include="public\images\bg.jpg" />
+    <Content Include="public\images\favicon.png" />
+    <Content Include="public\images\loader.gif" />
     <Content Include="public\index.html" />
     <Content Include=".gitignore" />
     <Content Include="src\actions\auth.js" />
@@ -77,6 +80,18 @@
     <Content Include="src\ReadMe.md" />
     <Content Include=".env.development" />
     <Content Include=".env.test" />
+    <Content Include="src\components\LoadingPage.js" />
+    <Content Include="src\styles\components\_box-layout.scss" />
+    <Content Include="src\styles\components\_button.scss" />
+    <Content Include="src\styles\components\_header.scss" />
+    <Content Include="src\styles\components\_content_container.scss" />
+    <Content Include="src\styles\components\_page-header.scss" />
+    <Content Include="src\styles\components\_input-group.scss" />
+    <Content Include="src\styles\components\_inputs.scss" />
+    <Content Include="src\styles\components\_form.scss" />
+    <Content Include="src\styles\components\_visibility.scss" />
+    <Content Include="src\styles\components\_list.scss" />
+    <Content Include="src\styles\components\_loader.scss" />
     <None Include="src\styles\styles.scss" />
     <Content Include=".editorconfig" />
     <Content Include=".jshintrc" />
@@ -97,6 +112,7 @@
     <Content Include="src\tests\components\ExpenseListItem.test.js" />
     <Content Include="src\tests\components\ExpensesSummary.test.js" />
     <Content Include="src\tests\components\Header.test.js" />
+    <Content Include="src\tests\components\LoadingPage.test.js" />
     <Content Include="src\tests\components\LoginPage.test.js" />
     <Content Include="src\tests\components\NotFoundPage.test.js" />
     <Content Include="src\tests\fixtures\expenses.js" />
@@ -109,9 +125,7 @@
     <Content Include="src\tests\__mocks__\moment.js" />
     <Content Include="webpack.config.js" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="src\styles\components\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include=".babelrc" />
   </ItemGroup>

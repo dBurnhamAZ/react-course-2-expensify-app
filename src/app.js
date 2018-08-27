@@ -10,9 +10,16 @@ import { login, logout } from './actions/auth'; //this is a named file (no defau
 import getVisibleExpense from './selectors/expenses';  //this is a DEFAULT file 
 import 'react-dates/lib/css/_datepicker.css';
 import { firebase } from './firebase/firebase';
+import LoadingPage from './components/LoadingPage';
 //import './sandbox/promises';
 
 const store = configureStore();
+
+const jsx = (
+  <Provider store={store}>
+    <AppRouter />
+  </Provider>
+);
 
 //console.log('test');
 
@@ -20,7 +27,7 @@ const store = configureStore();
 //store.dispatch(addExpense({ description: 'Gas bill', createdAt: 1000 }));
 //store.dispatch(addExpense({ description: 'Rent', amount: 109500 }));
 
-const state = store.getState();
+//const state = store.getState();
 
 let hasRendered = false;
 const renderApp = () => {
@@ -30,13 +37,8 @@ const renderApp = () => {
   }
 };
 
-const jsx = (
-  <Provider store={store}>
-    <AppRouter />
-  </Provider>
-);
 
-ReactDOM.render(<p>loading...</p>, document.getElementById('app'));
+ReactDOM.render(<LoadingPage />, document.getElementById('app'));
 
 firebase.auth().onAuthStateChanged((user) => {
   if (user) {
